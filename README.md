@@ -15,3 +15,6 @@ PhD Student in Atmospheric Science at Colorado State University in the [Barnes G
 **Daniel Hueholt**  
 Email: `daniel.hueholt [at] colostate.edu`  
 PhD Student in Atmospheric Science at Colorado State University in the [Barnes Group](https://barnes.atmos.colostate.edu/) and [Hurrell Group](https://sites.google.com/rams.colostate.edu/hurrellgroup/home).
+
+## License
+The datasheet template files are licensed under [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
