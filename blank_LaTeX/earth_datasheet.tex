@@ -1,23 +1,26 @@
 % earth_datasheet: This is a datasheet designed for an Earth dataset.
 % Adapted by Charlotte Connolly and Daniel Hueholt
-% See more information including instructional guide at DOI:
+% See more information including instructional guide at DOI: github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets
 % Based on "Datasheets for Datasets" Gebru et al. 2021 https://dl.acm.org/doi/fullHtml/10.1145/3458723 for implementation
 % Formatting based on the template by Olamilekan Wahab, licensed under Creative Commons 4.0
 
 \documentclass[letterpaper, 10 pt, transmag]{IEEEtran}
 
 \raggedbottom
-
+\DeclareUnicodeCharacter{2713}{\checkmark}
 \usepackage{graphicx}
 \usepackage{lipsum}  
 \usepackage[dvipsnames,table,xcdraw]{xcolor}
 \usepackage{fancyhdr}
 \usepackage[includeheadfoot, left=0.6in, right=0.6in, bottom=0.5in, top=0.75in, headheight=27pt]{geometry}
+\usepackage{enumitem,amssymb}
 
 \graphicspath{ {images/} } % Directory for images
+\newcommand{\checked}{✓}
 
 \title{
 \LARGE \textbf{Datasheet for an Earth Science Dataset}
+% Change title to whatever is appropriate for your project
 \\ \normalsize Released: % Date made public
 \\ \footnotesize Last updated: % Record updates
 }
@@ -47,8 +50,8 @@
 \maketitle
 \thispagestyle{fancy}
 \pagestyle{fancy}
-\fancyhead[L]{\footnotesize{\texttt{BETA VERSION FOR DEVELOPMENT -- see instructional guide for details!} \\
-\texttt{Contact the authors: Charlotte Connolly cconn@rams.colostate.edu, Daniel Hueholt daniel.hueholt@colostate.edu}}}
+\fancyhead[L]{\footnotesize{\texttt{BETA VERSION FOR DEVELOPMENT [v0.2] -- see instructional guide for details! Contact the template authors:} \\
+\texttt{Charlotte Connolly cconn@rams.colostate.edu, Daniel Hueholt daniel.hueholt@colostate.edu}}}
 %%%%%%
 \section{Purpose}
 
@@ -61,18 +64,21 @@
 \textcolor{blue}{\subsection{Was the author of the datasheet involved in creating the dataset? If so, how? If not, please describe your relation to this dataset.}}
 \textcolor{gray}{\textit{Motivation: Document the authorship of the datasheet, which may be different than the creator of the dataset.}}
 
+\textcolor{blue}{\subsection{What tasks has the dataset been used for? Please provide a description and/or citation(s); if there is a repository that archives uses of the dataset, provide a permanent reference (stable link, e.g., a DOI) here.}}
+\textcolor{gray}{\textit{Motivation: Document use cases of the dataset within the scope of this datasheet.}}
+
 \textcolor{blue}{\subsection{Any other comments?}}
 \textcolor{gray}{\textit{Motivation: Space for any other relevant information about the creation of the dataset.}}  
 
 \vspace{10mm}
 
-\section{Composition}
-This section concerns technical aspects of the dataset. If this information is documented elsewhere you may simply provide a brief description and stable link (e.g., digital object identifier [DOI]) in the relevant question(s).
+\section{Structure and Processing}
+This section concerns technical aspects of the dataset. If this information is documented elsewhere you may simply provide a brief description and stable link in the relevant question(s).
 
 \textcolor{blue}{\subsection{What type of data is contained in this dataset? (e.g., is it model output, observational data, reanalysis, etc.?)}}
 \textcolor{gray}{\textit{Motivation: Basic information about the fundamental classification of your data.}}
 
-\textcolor{blue}{\subsection{What is the data? (e.g., file format, dimensionality, variables and metadata, spatiotemporal coverage)}}
+\textcolor{blue}{\subsection{What is the data? (e.g., file format, dimensionality, variables and metadata, spatiotemporal coverage). Is there important metadata contained in the filename of the data? If so, document this here.}}
 \textcolor{gray}{\textit{Motivation: Provide format and characteristics of the data.}}
 
 \textcolor{blue}{\subsection{What processing has been applied to this data?}}
@@ -85,10 +91,10 @@ This section concerns technical aspects of the dataset. If this information is d
 \textcolor{gray}{\textit{Motivation: Share processing methodology to facilitate reproducibility, if possible.}}
 
 \textcolor{blue}{\subsection{Is this dataset derived from another dataset? If so, how?}} 
-\textcolor{gray}{\textit{Motivation: Describe whether a dataset is drawn or derived from another preexisting dataset (e.g., field campaign, model intercomparison).}}
+\textcolor{gray}{\textit{Motivation: Describe whether a dataset is drawn or derived from a preexisting dataset (e.g., field campaign, model intercomparison).}}
 
 \textcolor{blue}{\subsection{Is any relevant information known to be missing from the dataset? If so, please provide an explanation.}}
-\textcolor{gray}{\textit{Motivation: Describe missing data and be transparent about causes of missing data within the dataset.}}
+\textcolor{gray}{\textit{Motivation: Document missing data within the dataset.}}
 
 \textcolor{blue}{\subsection{Are there any sources of noise, redundancies, or errors in the dataset? If so, please provide a description.}}
 \textcolor{gray}{\textit{Motivation: Provide information about relevant known technical issues that affect all or portions of the dataset.}}
@@ -97,26 +103,7 @@ This section concerns technical aspects of the dataset. If this information is d
 \textcolor{gray}{\textit{Motivation: Explicitly track external dependencies that may otherwise go unacknowledged.}}
 
 \textcolor{blue}{\subsection{Any other comments?}}
-\textcolor{gray}{\textit{Motivation: Space for any other relevant information about the composition of the dataset.}}  
-\vspace{10mm}
-
-\section{Uses}
-
-\textcolor{blue}{\subsection{What tasks has the dataset been used for? Please provide a description and/or citation(s); if there is a repository that archives uses of the dataset, provide the stable link here.}}
-\textcolor{gray}{\textit{Motivation: Document use cases of the dataset within the scope of this datasheet.}}
-
-\textcolor{blue}{\subsection{Is there anything about the construction of the dataset that might impact future uses?}}
-\textcolor{gray}{\textit{Motivation: Be transparent about how the composition or processing of the dataset could affect future uses.}}
-
-\textcolor{blue}{\subsection{Are there specific tasks for which the dataset should not be used? If so,
-please provide a description.}}
-\textcolor{gray}{\textit{Motivation: Address relevant gaps or inadequacies of the data for specific use cases.}}
-
-\textcolor{blue}{\subsection{What are the potential impacts of this dataset on humans? Please provide a description as well as a stable link to any supporting documentation.}}
-\textcolor{gray}{\textit{Motivation: Reflect on the potential impacts (direct or downstream) of the dataset on human systems.}}
-
-\textcolor{blue}{\subsection{Any other comments?}}
-\textcolor{gray}{\textit{Motivation: Space for any other relevant information about uses of the dataset.}}  
+\textcolor{gray}{\textit{Motivation: Space for any other relevant information about the structure and processing of the dataset.}}  
 \vspace{10mm}
 
 \section{Distribution and Maintenance}
@@ -127,23 +114,17 @@ please provide a description.}}
 \textcolor{blue}{\subsection{Who is/are the point(s) of contact for this dataset?}}
 \textcolor{gray}{\textit{Motivation: Provide information about who is responsible for responding to inquiries about this dataset.}}
 
-\textcolor{blue}{\subsection{Is the dataset complete or will it be updated in the future?}}
+\textcolor{blue}{\subsection{Is the dataset complete or will it be updated in the future (e.g., to add new data, or make corrections)? Will older versions continue to be available?}}
 \textcolor{gray}{\textit{Motivation: Clarify whether this version of the data is final.}}
-
-\textcolor{blue}{\subsection{Is the dataset receiving ongoing maintenance? If so, please provide one or more point(s) of contact and describe the method (if any) by which updates would be communicated to users.}}
-\textcolor{gray}{\textit{Motivation: Provide information about whether the dataset is receiving ongoing support.}}  
 
 \textcolor{blue}{\subsection{What license or other terms of use is the dataset distributed under? Please link to any relevant licensing terms or terms of use (if in the public domain, simply state this).}}
 \textcolor{gray}{\textit{Motivation: Provide information about what future uses of the data are permitted.}}
 
-\textcolor{blue}{\subsection{Is there an erratum? If so, please provide a link or other access point.}}
+\textcolor{blue}{\subsection{Is there a published document that describes an important error in this dataset (e.g., an erratum)? If so, please provide a link or other access point.}}
 \textcolor{gray}{\textit{Motivation: Document any corrections to the dataset.}}
 
-\textcolor{blue}{\subsection{Will older versions of the dataset continue to be available? If so, please describe where.}}
-\textcolor{gray}{\textit{Motivation: Describe whether any specific version of the dataset will always be accessible.}}
-
-\textcolor{blue}{\subsection{Who is hosting the datasheet? Is the datasheet receiving ongoing maintenance?}}
-\textcolor{gray}{\textit{Motivation: Clarify stable access to the datasheet and whether it will be updated.}}
+\textcolor{blue}{\subsection{Who is hosting the datasheet? Will the datasheet be updated in the future?}}
+\textcolor{gray}{\textit{Motivation: Document stable access to the datasheet.}}
 
 \textcolor{blue}{\subsection{Any other comments?}}
 \textcolor{gray}{\textit{Motivation: Space for any other relevant information about data distribution and maintenance.}}
@@ -157,22 +138,16 @@ Responses in this section will be dependent on the type(s) of data contained in 
 \textcolor{gray}{\textit{Motivation: Establish fundamental information about the methods used to generate or collect data in the dataset.}}
 
 \textcolor{blue}{\subsection{If the data has been evaluated against some baseline(s) (e.g., an observational product or fundamental physical laws), please describe its evaluation against that baseline(s). If available, simply provide the relevant citation.}}
-\textcolor{gray}{\textit{Motivation: Document adequacy of the method (e.g., model, remote sensing retrieval) within the scope of this datasheet.}}
-
-\textcolor{blue}{\subsection{Please provide relevant known biases in the generation or collection method of this data and citations as available. This list does not need to be exhaustive, but should include any known biases relevant to the scope of the project the data was created for.}}
-\textcolor{gray}{\textit{Motivation: Document known biases that pertain specifically to the scope of the project at hand.}}
+\textcolor{gray}{\textit{Motivation: Document adequacy of the method used to construct the data within the scope of this datasheet.}}
 
 \textcolor{blue}{\subsection{Please note configurations or modifications made to any model used to complete runs in this dataset (e.g. changes to seasonality, changes to coupling, nudging), or provide relevant startup files.}}
-\textcolor{gray}{\textit{Motivation: Be transparent about the exact setup of the model to create the data at hand.}}
+\textcolor{gray}{\textit{Motivation: Be transparent about the exact setup of the model to create the data.}}
 
-\textcolor{blue}{\subsection{If this data is restricted to a single point or region, why was this location or region chosen? What are some potential implications of this choice of location on the interpretation of the data?}}
-\textcolor{gray}{\textit{Motivation: Describe the reasoning for and any relevant impacts of the selection of this location.}}
-
-\textcolor{blue}{\subsection{Describe relevant uncertainties associated with this data or provide relevant citation(s). If no formal analysis of uncertainties has been completed, then please state this here.}}
+\textcolor{blue}{\subsection{Describe relevant uncertainties associated with this data or provide citation(s). If no formal analysis of uncertainties has been completed, then please state this here.}}
 \textcolor{gray}{\textit{Motivation: Provide information about known uncertainties within the scope of the project.}}
 
-\textcolor{blue}{\subsection{Did the method of generation or collection of the data change within the extent of the dataset?}}
-\textcolor{gray}{\textit{Motivation: Be transparent about important changes to instruments or methodology within the dataset.}}
+\textcolor{blue}{\subsection{Did the method of generation or collection of the data change within the scope of the dataset?}}
+\textcolor{gray}{\textit{Motivation: Be transparent about important changes to instruments or methodology within the dataset.}} % ?
 
 \textcolor{blue}{\subsection{Are there any relevant unexplained but important numerical values (``magic numbers") that go into the generation, collection, or processing of this data? (e.g., model tuning values, calibration constants, machine learning hyperparameters)}}
 \textcolor{gray}{\textit{Motivation: Define unique numerical values that exist within or impact this data, but may not be documented elsewhere.}}
@@ -183,11 +158,69 @@ Responses in this section will be dependent on the type(s) of data contained in 
 \textcolor{blue}{\subsection{Are there relevant categories, groupings, or labels within the data? If so, how are these determined?}}
 \textcolor{gray}{\textit{Motivation: Be transparent about the processes used to define groups within the data.}}
 
-\textcolor{blue}{\subsection{Can users contribute to this dataset? If so, please describe the process. Will these contributions be evaluated or verified? If so, please describe how. If not, why not?}}
-\textcolor{gray}{\textit{Motivation: Describe if user contributions make up part of the dataset (e.g., citizen science or human labeling).}}
+\textcolor{blue}{\subsection{Can users contribute to this dataset (e.g., citizen science or human labeling)? If so, please describe the process. Will these contributions be evaluated or verified? If so, please describe how. If not, why not?}}
+\textcolor{gray}{\textit{Motivation: Describe if the data includes user contributions.}}
+
+\textcolor{blue}{\subsection{Are there specific tasks for which the dataset should not be used? If so,
+please provide a description.}}
+\textcolor{gray}{\textit{Motivation: Address relevant gaps or inadequacies of the data for specific use cases.}}
+
+\textcolor{blue}{\subsection{What are the direct or downstream impacts on humans from this dataset? The non-comprehensive checklist below is intended to prompt the reader to think of common impacts from data. Please check all that apply, and include a brief text description with stable links to any references. Additionally, please document potential impacts relevant to the scope of the dataset that are not included on the checklist.}}
+\textcolor{gray}{\textit{Motivation: Reflect on the potential impacts (direct or downstream) of the dataset on human systems.}}
+
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+Direct
+\begin{todolist}
+% Check boxes by changing \item to \item[\checked]
+  \item Does this dataset support reproducibility of a specific scientific finding or figure?
+  \item Were there notable CO\textsubscript{2} emissions in creating this dataset? \\ 
+  (e.g., from large machine learning models)
+  \item Were there notable land use impacts from equipment? \\
+  (e.g., in situ instruments during a field experiment)
+  \item Was this dataset created through co-production of research? \\
+  (e.g., for fieldwork in vulnerable communities)
+  \item Does this dataset include identifying information? \\
+  (e.g., community-level data, social information) 
+  
+
+\end{todolist}
+
+Downstream
+\begin{todolist}
+  \item Is this dataset intended for development of a research tool? \\
+  (e.g., model improvement, sensor design)
+  \item Does this dataset support further use for novel research? (e.g., unrelated scientific studies)
+  \item Would analysis of this dataset be policy relevant? \\
+  (e.g., climate, environmental, public health issues)
+  \item Would this dataset be considered actionable science? \\ 
+  (e.g., completed with use by a specific stakeholder in mind)
+  \item Could this dataset inspire behavioral changes? \\
+  (e.g., change agricultural practices, city planning)
+  \item Could this dataset affect operational forecasting? \\
+  (e.g., improve models, forecasting, predictability)
+\end{todolist}
+
+\textcolor{blue}{\subsection{What biases were present in the construction or use of the dataset? The checklist below provides a non-exhaustive list of common examples in Earth science. Please check all that apply, and include a brief text description with stable links to any references. Additionally, please document any biases within the scope of the dataset that are not included in the checklist.}}
+\textcolor{gray}{\textit{Motivation: Reflect on potential biases present in the dataset.}}
+
+\begin{todolist}
+    \item Geographic bias (e.g., restricted or weighted to specific regions)
+    \item Model bias (e.g., error relative to observations or other ground truth product)
+    \item Sensor bias (e.g., calibration)
+    \item Day/night bias (e.g., diurnal cycle, restrictions)
+    \item Seasonal biases (e.g., seasonal cycle)
+    \item Bias towards extreme or standard conditions (e.g., catchment error in high winds, failure to represent extremes)
+    \item Unbalanced sampling (e.g., unequal classes)
+    \item Adversarial impacts on data (e.g., fraudulent data in crowdsourcing)
+    \item Label bias (e.g., incorrect or incomplete labeling)
+    \item Threshold sensitivity (e.g., for an extreme index)
+    \item Regime dependence (e.g., convective structure, mode of variability)
+\end{todolist}
 
 \textcolor{blue}{\subsection{Any other comments? Are there any other citations necessary to document some important aspect of the data? If so, provide the citation(s) and describe their purpose.}}
-\textcolor{gray}{\textit{Motivation: Space for any other relevant information about the data. Can include specific useful citations that do not fall naturally into any other question.}}
+\textcolor{gray}{\textit{Motivation: Space for any other relevant information about the data.}}
 
 
 \bigskip
