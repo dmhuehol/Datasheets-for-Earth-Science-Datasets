@@ -18,8 +18,8 @@ PhD Student in Atmospheric Science at Colorado State University in the [Barnes G
 
 # Datasheet tracker
 In addition to the two demonstration datasheets archived in this repository, we are currently tracking other datasheets which have been completed:
-* [**mhws-esm**](https://github.com/dmhuehol/mhws-esm/blob/main/Hueholt_DatasheetforMHWsARISE15_20230423.pdf) written by Daniel Hueholt using v0.1
-* [**Assessing Decadal Variability of Subseasonal Forecasts of Opportunity using Explainable AI**](https://github.com/mbarcodia/ERC23_paper_code/blob/main/ERC23_datasheet4datascientist.pdf) written by Marybeth Arcodia using v0.0
+* [**Assessing Decadal Variability of Subseasonal Forecasts of Opportunity using Explainable AI**](https://github.com/mbarcodia/ERC23_paper_code/blob/main/ERC23_datasheet4datascientist.pdf) written by Marybeth Arcodia using v0.0 (July 2023)
+* [**mhws-esm**](https://github.com/dmhuehol/mhws-esm/blob/main/Hueholt_DatasheetforMHWsARISE15_20230423.pdf) written by Daniel Hueholt using v0.1 (April 2023)
 
 # License
 The datasheet template files are licensed under [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
