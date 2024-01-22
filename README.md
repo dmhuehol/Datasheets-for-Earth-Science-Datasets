@@ -11,13 +11,14 @@ Welcome! This repository contains the “beta version” of Datasheets for Earth
 # Contact us! 
 **Charlotte Connolly**  
 Email: `cconn [at] rams.colostate.edu`  
-PhD Student in Atmospheric Science at Colorado State University in the [Barnes Group](https://barnes.atmos.colostate.edu/).  
+PhD Candidate in Atmospheric Science at Colorado State University in the [Barnes Group](https://barnes.atmos.colostate.edu/).  
 **Daniel Hueholt**  
 Email: `daniel.hueholt [at] colostate.edu`  
-PhD Student in Atmospheric Science at Colorado State University in the [Barnes Group](https://barnes.atmos.colostate.edu/) and [Hurrell Group](https://sites.google.com/rams.colostate.edu/hurrellgroup/home).
+PhD Candidate in Atmospheric Science at Colorado State University in the [Barnes Group](https://barnes.atmos.colostate.edu/) and [Hurrell Group](https://sites.google.com/rams.colostate.edu/hurrellgroup/home).
 
 # Datasheet tracker
 In addition to the two demonstration datasheets archived in this repository, we are currently tracking other datasheets which have been completed:
+* [**Optimizing Seasonal-To-Decadal Analog Forecasts With a Learned Spatially-Weighted Mask**](https://doi.org/10.5281/zenodo.10386637) written by Jamin Rader using v0.2 (November 2023)
 * [**Assessing Decadal Variability of Subseasonal Forecasts of Opportunity using Explainable AI**](https://github.com/mbarcodia/ERC23_paper_code/blob/main/ERC23_datasheet4datascientist.pdf) written by Marybeth Arcodia using v0.0 (July 2023)
 * [**mhws-esm**](https://github.com/dmhuehol/mhws-esm/blob/main/Hueholt_DatasheetforMHWsARISE15_20230423.pdf) written by Daniel Hueholt using v0.1 (April 2023)
 
