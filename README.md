@@ -18,6 +18,7 @@ PhD Candidate in Atmospheric Science at Colorado State University in the [Barnes
 
 # Datasheet tracker
 In addition to the two demonstration datasheets archived in this repository, we are currently tracking other datasheets which have been completed:
+* [**Quantifying the Impact of Internal Variability on the CESM2 Control Algorithm for Stratospheric Aerosol Injection**](https://doi.org/10.5281/zenodo.10914568) written by Charlotte Connolly using v0.4 (March 2024)
 * [**Tornado Reports in Southeast South America**](https://doi.org/10.5281/zenodo.10476311) written by Daniel Veloso Águila using v0.1 (January 2024)
 * [**Climate speeds help frame relative ecological risk in future climate change and stratospheric aerosol injection scenarios**](https://doi.org/10.17605/OSF.IO/Z37ES) written by Daniel Hueholt using v0.2 (February 2024)
 * [**Optimizing Seasonal-To-Decadal Analog Forecasts With a Learned Spatially-Weighted Mask**](https://doi.org/10.5281/zenodo.10386637) written by Jamin Rader using v0.2 (November 2023)
