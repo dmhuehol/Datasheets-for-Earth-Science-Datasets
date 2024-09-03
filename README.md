@@ -1,12 +1,15 @@
 # Datasheets-for-Earth-Science-Datasets
-Welcome! This repository contains the “beta version” of Datasheets for Earth Science Datasets released for feedback, comments, and questions from the broader Earth science community. Please check out the **InstructionalGuide** to learn more!
+Welcome! This repository contains the “beta version” of Datasheets for Earth Science Datasets released for feedback, comments, and questions from the broader Earth science community. Please check out the **InstructionalGuide** to learn more about filling out datasheets!
+
+**Read the preprint of our paper on datasheets for Earth science datasets here:**
+* Connolly, C.J. & Hueholt, D.M. (co-led), M.A. Burt. “Datasheets for Earth Science Datasets.” in review 2024 at Bulletin of the American Meteorological Society. Preprint at [doi.org/10.31219/osf.io/hwa3p](https://doi.org/10.31219/osf.io/hwa3p)
 
 # Contents
 * [**InstructionalGuide**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/blob/main/InstructionalGuide.pdf): Read this first! Describes the Datasheets for Earth Science Datasets concept, provides instructions for filling out a datasheet, and answers common questions.
 * [**blank_EarthScienceDatasheet**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/blob/main/blank_EarthScienceDatasheet.pdf): A blank PDF datasheet template.
 * [**blank_LaTeX/**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/tree/main/blank_LaTeX): Contains blank LaTeX datasheet files.
 * [**demo_EarthScienceDatasheets/**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/tree/main/demo_EarthScienceDatasheets): Two demonstration datasheets filled out by Charlotte Connolly and Daniel Hueholt. ***Please read the InstructionalGuide file before the demonstration datasheets!***
-* We additionally link to the original paper by Gebru et al. proposing [Datasheets for Datasets for software engineering](https://cacm.acm.org/magazines/2021/12/256932-datasheets-for-datasets/abstract). We have adapted this format for Earth science applications. (Please note that we had no relation to this original work!)
+* We additionally link to the original paper by Gebru et al. proposing [Datasheets for Datasets for software engineering](https://cacm.acm.org/magazines/2021/12/256932-datasheets-for-datasets/abstract). We have adapted this format for Earth science applications. (Please note that we had no relation to this original work.)
 
 # Contact us! 
 **Charlotte Connolly**  
