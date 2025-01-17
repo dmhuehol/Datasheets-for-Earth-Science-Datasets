@@ -8,6 +8,7 @@ Welcome! This repository contains the “beta version” of Datasheets for Earth
 * [**InstructionalGuide**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/blob/main/InstructionalGuide.pdf): Read this first! Describes the Datasheets for Earth Science Datasets concept, provides instructions for filling out a datasheet, and answers common questions.
 * [**blank_EarthScienceDatasheet**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/blob/main/blank_EarthScienceDatasheet.pdf): A blank PDF datasheet template.
 * [**blank_LaTeX/**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/tree/main/blank_LaTeX): Contains blank LaTeX datasheet files.
+* A Google Doc template (downloadable as Microsoft Word docx) is available at: [https://docs.google.com/document/d/1cGVs-G31lpq18DG4aLtit_JeYF1uf4yjeoy24WZjM5k/edit?usp=sharing](https://docs.google.com/document/d/1cGVs-G31lpq18DG4aLtit_JeYF1uf4yjeoy24WZjM5k/edit?usp=sharing)
 * We additionally link to the original paper by Gebru et al. proposing [Datasheets for Datasets for software engineering](https://cacm.acm.org/magazines/2021/12/256932-datasheets-for-datasets/abstract). We have adapted this format for Earth science applications. (Please note that we had no relation to this original work.)
 
 # Contact us! 
