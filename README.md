@@ -1,11 +1,13 @@
 # Datasheets-for-Earth-Science-Datasets
-Welcome! This repository contains the “beta version” of Datasheets for Earth Science Datasets released for feedback, comments, and questions from the broader Earth science community. Please check out the **InstructionalGuide** to learn more about filling out datasheets!
+Welcome! This repository contains the Datasheets for Earth Science Datasets templates.
 
-**Read the preprint of our paper on datasheets for Earth science datasets here:**
-* Connolly, C.J. & Hueholt, D.M. (co-led), M.A. Burt. “Datasheets for Earth Science Datasets.” in review 2025 at Bulletin of the American Meteorological Society. Preprint at [doi.org/10.31219/osf.io/hwa3p](https://doi.org/10.31219/osf.io/hwa3p)
+**Read the paper on datasheets for Earth science datasets here:**
+* Connolly, C.J. & Hueholt, D.M. (co-led), M.A. Burt. (2025) “Datasheets for Earth Science Datasets.”  *Bulletin of the American Meteorological Society, 106*(4). [https://doi.org/10.1175/BAMS-D-24-0203.1](https://doi.org/10.1175/BAMS-D-24-0203.1)
+
+Please check out the **InstructionalGuide** for an informal overview about filling out datasheets!
 
 # Contents
-* [**InstructionalGuide**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/blob/main/InstructionalGuide.pdf): Read this first! Describes the Datasheets for Earth Science Datasets concept, provides instructions for filling out a datasheet, and answers common questions.
+* [**InstructionalGuide**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/blob/main/InstructionalGuide.pdf): Describes the Datasheets for Earth Science Datasets concept, provides instructions for filling out a datasheet, and answers common questions.
 * [**blank_EarthScienceDatasheet**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/blob/main/blank_EarthScienceDatasheet.pdf): A blank PDF datasheet template.
 * [**blank_LaTeX/**](https://github.com/dmhuehol/Datasheets-for-Earth-Science-Datasets/tree/main/blank_LaTeX): Contains blank LaTeX datasheet files.
 * A Google Doc template (downloadable as Microsoft Word docx) is available at: [https://docs.google.com/document/d/1cGVs-G31lpq18DG4aLtit_JeYF1uf4yjeoy24WZjM5k/edit?usp=sharing](https://docs.google.com/document/d/1cGVs-G31lpq18DG4aLtit_JeYF1uf4yjeoy24WZjM5k/edit?usp=sharing)
